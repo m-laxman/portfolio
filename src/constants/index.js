@@ -29,6 +29,8 @@ import {
     threejs,
     cpp,
     java,
+    pot,
+    reviewme,
   } from "../assets";
   
   export const navLinks = [
@@ -52,16 +54,16 @@ import {
       icon: web,
     },
     {
-      title: "Mobile App developer",
-      icon: creator,
-    },
-    {
       title: "Backend Developer",
       icon: backend,
     },
     {
       title: "5G Software Developer",
       icon: mobile,
+    },
+    {
+      title: "Mobile App developer",
+      icon: creator,
     },
   ];
   
@@ -136,10 +138,11 @@ import {
       iconBg: "#FFFFFF",
       date: "July 2021 - July 2023",
       points: [
-        "Collaborated with the team for efficient and time bound software development in the 5G protocol stack of Layer 2(RLC & MAC).",
-        "Designed, developed and tested NR user equipment and performed root cause analysis to resolve issues such as handover failures and throughput issues to improve overall product quality by 15%.",
-        "Reduced the latency between L2(RLC & MAC) and L3(RRC), resulting in a 19% improvement in product performance.",
-        "Skills: Data Plane Development Kit (DPDK) · C++ · Jenkins · Git · Gerrit",
+        "Collaborated with the team for efficient and time bound software development in the simulation of 5G protocol stack of Layer 2(Radio Link Control & Medium Access Control) for Ericsson Research & Development.",
+        "Reduced the latency between Layer 2(Radio Link Control & Medium Access Control) and Layer 3(Radio resource control), resulting in a 19% improvement in product performance.",
+        "Designed, developed and tested user equipment for 5G/New-Radio networks. Investigated and resolved issues such as handover failures and throughput issues. Performed end-to-end testing to ensure overall quality of the product. Improved product quality by 15%. Also reviewed code, curated documentation and implemented load/stress testing and unit/integration/end-to-end testing.",
+        "Awarded ‘A’ band for excellence in performance in TCS for the period 2022-23. Received star of the month award in TCS in the month of December in 2022.",
+        "Skills: Data Plane Development Kit (DPDK) · C++ · Jenkins · Git · Gerrit · Docker · Google Test",
       ],
     },
     {
@@ -185,6 +188,48 @@ import {
   ];
   
   const projects = [
+    {
+      name: "ReviewMe",
+      description:
+        "Developed a web application for connecting students with various people with similar interests using tags for peer reviewing of resumes, research documents, journals in the form of file uploads. Supports posts, comments, upvote and downvote along with search and notification functionalities using MVC design patterns.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MVC",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: reviewme,
+      source_code_link: "https://github.com/shekharmnnit/Runtime_Terror",
+    },
+    {
+      name: "Prediction of term deposit",
+      description:
+        "Developed a web application that contains dashboard for visualising and analysing the bank marketing data and also carried out preprocessing, oversampling, feature engineering and regression analysis of the data. Dashboard is deployed on Google cloud platform. Applied various supervised, unsupervised, ensemble learning methodologies and performed association analysis.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Dash",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Google Cloud Platform",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: pot,
+      source_code_link: "https://github.com/m-laxman/prediction-of-term-deposit",
+    },
     {
       name: "Face Recognition based Attendance System",
       description:
