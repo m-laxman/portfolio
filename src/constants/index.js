@@ -18,6 +18,7 @@ import {
     figma,
     docker,
     tcs,
+    ericsson,
     cognizant,
     meta,
     starbucks,
@@ -132,8 +133,8 @@ import {
   
   const experiences = [
     {
-      title: "Software Engineer",
-      company_name: "Tata Consultancy Services | Full time",
+      title: "Software Developer",
+      company_name: "Ericsson | Full time",
       icon: tcs,
       iconBg: "#FFFFFF",
       date: "July 2021 - July 2023",
@@ -146,7 +147,7 @@ import {
       ],
     },
     {
-      title: "Software Development Engineer in Test | Intern",
+      title: "Software Engineer | Intern",
       company_name: "Cognizant",
       icon: cognizant,
       iconBg: "#FFFFFF",

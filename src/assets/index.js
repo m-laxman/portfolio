@@ -25,6 +25,7 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import tcs from "./company/tcs.png"
+import ericsson from "./company/ericsson.png"
 import cognizant from "./company/cognizant.png"
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -66,6 +67,7 @@ export {
   typescript,
   threejs,
   tcs,
+  ericsson,
   cognizant,
   meta,
   shopify,
