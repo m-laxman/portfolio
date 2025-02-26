@@ -135,7 +135,7 @@ import {
     {
       title: "Software Developer",
       company_name: "Ericsson | Full time",
-      icon: tcs,
+      icon: ericsson,
       iconBg: "#FFFFFF",
       date: "July 2021 - July 2023",
       points: [
