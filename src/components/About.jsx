@@ -47,8 +47,8 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I have practical experience in C++, Java, Python and JavaScript, along with familiarity with frameworks such as React and 
-        Node.js. I am adept at quickly grasping new concepts and enjoy working closely with clients to develop effective, 
+        I have practical experience in C++, Java, Python, along with familiarity with frameworks such as React and 
+        Node.js. I am also interested in AI/ML and I am adept at quickly grasping new concepts and enjoy working closely with clients to develop effective, 
         scalable, and user-friendly solutions that address real-world challenges.
       </motion.p>
 
